@@ -1,0 +1,160 @@
+@font-face {
+  font-family: Bodoni;
+  src: url(./fonts/bodoni.TTF);
+}
+@font-face {
+  font-family: Agency;
+  src: url(./fonts/agency.TTF);
+}
+@font-face {
+  font-family: Californian;
+  src: url(./fonts/cali.TTF);
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+    margin-top: 0;
+    
+}
+.nav-link{
+  font-family: Agency !important;
+  color: white;
+  font-size: 35px;
+}
+.bodoni-title{
+  font-family: Bodoni !important;
+
+}
+.bodoni-sub{
+  font-family: Bodoni !important;
+
+}
+.bodoni-txt-title {
+  font-family: Bodoni !important;
+  font-size: 45px;
+  color: #4F4F4F;
+
+}
+
+.bodoni-text {
+  font-family: Bodoni !important;
+  font-size: 40px;
+  color: #4F4F4F;
+
+}
+.contenedor{
+
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    
+}
+.opacity-container>div{
+    margin: auto auto;
+}
+a{
+  color: white  !important;
+}
+.phone-text{
+  font-family: Agency;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+
+}
+.item-text{
+  font-family: Agency;
+  font-size: 40px;
+  color:#4F4F4F
+}
+
+.sub{
+  font-family: Californian;
+    color: white;
+    font-size: 200px;
+    margin-top: 0;
+    margin-bottom: 0; 
+    margin-left: -70px;
+}
+.title{
+    color: white;
+    font-size: 80px;
+    margin-top: -70px;
+    margin-right: 185px;
+
+}
+.card{
+    align-content: center;
+    box-shadow:   5px 5px 15px #C5C5C5;
+   
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    
+  }
+  .card:hover{
+    
+    box-shadow:   5px 5px 15px #33E1FF;
+    
+  }
+  
+  .card p{
+    padding: 5px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  }
+  .card img{
+    max-height: 170px;
+  }
+  .card-grid{
+    display: flex;
+    flex-direction:  row;
+    flex-wrap: wrap;
+  }
+  .map-content{
+    border: 10px solid #f6f5f0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #4F4F4F;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .whatsapp-icon{
+    color: yellowgreen !important;
+    font-size: 50px;
+    position: fixed;
+    bottom: 1.4em;
+    right: 0.5em;
+  }
+  .fb-icon{
+    color: #EB2678 !important;
+    font-size: 50px;
+  }
+  .go-top{
+    background-color: #e52759;
+    bottom: 0.4em;
+    right: 0.4em;
+    font-size: 50px;
+    position: fixed;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+
+  }
+  .link{
+    cursor: pointer;
+  }
+  .link:hover{
+    color: white;
+  }
