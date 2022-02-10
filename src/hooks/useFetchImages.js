@@ -19,14 +19,14 @@ export const useFetch = (url) => {
         .then(resp=>resp.json())
         .then(data=>{
                if(isMounted.current){
-                // Object.values
+            
                     const arrayOfObjects=Object.entries(data);
                     const images= arrayOfObjects.map(e=>{
                         
                         return(
                             
                            {[e[0]]: e[1]}
-                        //   e[1]
+                
                         )
                     })
                     
