@@ -14,7 +14,7 @@ export const Menu = ({phone,email}) => {
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span className="fa-solid fa-bars"></span>
+                  <span className="fa-solid fa-bars text-white"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav">
