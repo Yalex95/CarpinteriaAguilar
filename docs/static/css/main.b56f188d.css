@@ -1,14 +1,14 @@
 @font-face {
   font-family: Bodoni;
-  src: url(./static/media/bodoni.78755a5efd5666b1c256.TTF);
+  src: url(../media/bodoni.78755a5efd5666b1c256.TTF);
 }
 @font-face {
   font-family: Agency;
-  src: url(./static/media/agency.a28a90a7641e61e595d3.TTF);
+  src: url(../media/agency.a28a90a7641e61e595d3.TTF);
 }
 @font-face {
   font-family: Californian;
-  src: url(./static/media/cali.b5578a746663098a8b2a.TTF);
+  src: url(../media/cali.b5578a746663098a8b2a.TTF);
 }
 html {
   scroll-behavior: smooth;
