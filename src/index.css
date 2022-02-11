@@ -32,14 +32,14 @@ body{
 }
 .bodoni-txt-title {
   font-family: Bodoni !important;
-  font-size: 45px;
+  font-size: 30px;
   color: #4F4F4F;
 
 }
 
 .bodoni-text {
   font-family: Bodoni !important;
-  font-size: 40px;
+  font-size: 30px;
   color: #4F4F4F;
 
 }
@@ -64,7 +64,7 @@ a{
 }
 .item-text{
   font-family: Agency;
-  font-size: 40px;
+  font-size: 25px;
   color:#4F4F4F
 }
 
@@ -107,7 +107,7 @@ a{
 
   }
   .card img{
-    max-height: 170px;
+    max-height: 120px;
   }
   .card-grid{
     display: flex;
