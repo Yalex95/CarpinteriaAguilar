@@ -26,7 +26,7 @@ export const Contacto = () => {
       <div className='row mt-5 mb-5  pt-5 pb-5 contenedor ' id='contacto' style={style}>
       <div className='container '>
       <div className='row '>
-      <div className='col-4 mr-3 '>
+      <div className='col-md-4 mr-3 col-12 '>
           <div className='map-content'>
           <iframe title='mapa' src="https://maps.google.com/maps?q=15.8959063,-92.256151&z=14&output=embed&iwloc=0" width="500" height="330" frameBorder="0"  allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
 

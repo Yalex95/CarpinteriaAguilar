@@ -43,6 +43,12 @@ body{
   color: #4F4F4F;
 
 }
+.subtitulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #4F4F4F;
+
+}
 .contenedor{
 
     background-repeat: no-repeat !important;
@@ -157,4 +163,19 @@ a{
   }
   .link:hover{
     color: white;
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .sub {
+      font-size: 80px;
+      margin-bottom: 0;
+      margin-left: 0px;
+  }
+  .title {
+    font-size: 40px;
+    margin-top: -33px;
+}
+.phone-text {
+  font-size: 15px;
+}
   }
